@@ -1,4 +1,4 @@
-const element = document.getElementsByClassName('close-delivery-box');
+const element = document.getElementsByID('close-delivery-box');
 
     
 
