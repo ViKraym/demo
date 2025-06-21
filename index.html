@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RestoApp</title>
     <link rel="stylesheet" href="styles/style.css">
-  <script src="./scripts/main.js"></script>
+  <script src="">
+          const hideButton = document.getElementsById('hideButton');
+          const myBlock = document.getElementsById('delivery');
+
+          hideButton.addEventListener('click', function() {
+          myBlock.style.display = 'none';
+  });
+  </script>
 </head>
 <body>
     <header>
