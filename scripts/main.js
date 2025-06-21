@@ -1,7 +1,11 @@
-const element = document.getElementsByID('close-delivery-box');
+   
+  const hideButton = document.getElementsByClassName('hideButton');
+  const myBlock = document.getElementsByClassName('delivery');
 
-    
-
-    button.addEventListener('click', function() {
-    element.style.display = "none";
+  hideButton.addEventListener('click', function() {
+    if (myBlock.style.display === 'none') {
+      myBlock.style.display = 'block';
+    } else {
+      myBlock.style.display = 'none';
+    }
   });
