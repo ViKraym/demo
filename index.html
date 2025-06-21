@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RestoApp</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="/scripts/main.js"></script>
+<body>
+    <header>
+
+        <aside class="delivery">
+            Бесплатная доставка от 1 000 ₽
+            <button class="close-delivery-box">X</button>
+        </aside>
+
+        <div class="header">
+
+            <div id="logo" class="logo">
+                <img class="logo-img" src="assets/Group - logo.svg" alt="RestoApp">
+            </div>
+
+            <nav>
+                <ul>
+                    <a href="#menu">
+                        <li>Меню</li>
+                    </a>
+                    <a href="#stocks">
+                        <li>Акции</li>
+                    </a>
+                    <a href="#">
+                        <li>О нас</li>
+                    </a>
+                    <a href="#events">
+                        <li>События</li>
+                    </a>
+                    <a href="#">
+                        <li>Зоны доставки</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <div>
+                <div class="contact-header">
+                    <a href="tel:+01234567890">+0 (123) 456 78-90 </a>
+                    <time datetime="" class="time-work-header" >
+                        Прием заказов с 10:00 до 22:40
+                    </time>
+                </div>
+
+            </div>
+            <div>
+                <img class="user-page" src="assets/user-02.svg" alt="userpage">
+                <img class="basket" src="assets/basket.svg" alt="basket">
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section id="menu" class="menu">
+            <h1>Меню</h1>
+
+
+            <div class="list-menu-box wrapper">
+
+                <div class="menu-box imgWrap">
+                    <a href="#"><img src="assets/images/pizza.png" alt="pizza"></a>
+                    <h3><span>Пицца</span></h3>
+                </div>
+
+                <div class="menu-box imgWrap ">
+                    <a href="#"><img src="assets/images/supiy.png" alt="pizza"></a>
+                    <h3><span>Супы</span></h3>
+                </div>
+
+                <div class="menu-box imgWrap">
+                    <a href="#"><img src="assets/images/hot.png" alt="pizza"></a>
+                    <h3><span>Горячие блюда</span></h3>
+                </div>
+
+                <div class="menu-box imgWrap">
+                    <a href="#"><img src="assets/images/salat.png" alt="pizza"></a>
+                    <h3><span>Салаты</span></h3>
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section id="new-product" class="new-product">
+
+            <h1>Новинки</h1>
+
+            <div class="list-new-product wrapper">
+                <div class="new-product-box notification">
+                    <img src="assets/images/china sup.png" alt="">
+                    <span class="badge"><img src="assets/Badges.svg" alt=""></span>
+                    <h3 class="name-product">Китайский яичный суп</h3>
+                    <p class="title-product">Традиционный китайский суп с яйцом и томатами черри</p>
+                    <p class="cost">350 ₽</p>
+                </div>
+
+
+
+                <div class="new-product-box notification">
+                    <img src="assets/images/payel.png" alt="">
+                    <span class="badge"><img src="assets/Badges.svg" alt=""></span>
+                    <h3 class="name-product">Паэлья</h3>
+                    <p class="title-product">Традиционное испанское блюдо — рис, колбаски чоризо,
+                        куриное бедро, кальмар, кукуруза, горошек, специи</p>
+                    <p class="cost">660 ₽</p>
+                </div>
+
+                <div class="new-product-box notification">
+                    <img src="assets/images/bif.png" alt="">
+                    <h3 class="name-product">Биф Бургеньон</h3>
+                    <p class="title-product">Блюдо французской кухни — тушёные кусочки говядины с картофелем
+                        и болгарским перцем</p>
+                    <p class="cost">630 ₽</p>
+                </div>
+
+                <div class="new-product-box notification">
+                    <img src="assets/images/ogurec.png" alt="">
+                    <span class="badge"><img src="assets/Badges.svg" alt=""></span>
+                    <h3 class="name-product">Битые огурцы</h3>
+                    <p class="title-product">Салат из свежих битых огурцов с уйгурским соусом, кешью и кунжутом</p>
+                    <p class="cost">320 ₽</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="popular" class="popular">
+            <h1>Популярное</h1>
+
+            <div class="list-popular wrapper">
+
+                <div class="popular-box">
+                    <img src="assets/images/peperoni.png" alt="">
+                    <h3 class="name-product">Пепперони</h3>
+                    <p class="title-product">Просто и вкусно - томатная основа маринара, колбаски пепперони и сыр
+                        моцарелла</p>
+                    <p class="cost">660 ₽</p>
+                </div>
+
+                <div class="popular-box notification">
+                    <img src="assets/images/gorgonzola.png" alt="">
+                    <span class="badge"><img src="assets/Badges.svg" alt=""></span>
+                    <h3 class="name-product">Груша Горгонзола</h3>
+                    <p class="title-product">Нежная пицца на основе сливочного соуса с сыром горгондзола, грушей, медом
+                        и кедровыми орехами</p>
+                    <p class="cost">780 ₽</p>
+                </div>
+
+                <div class="popular-box">
+                    <img src="assets/images/fo_bo.png" alt="">
+                    <h3 class="name-product">Фо Бо</h3>
+                    <p class="title-product">Вьетнамский суп с рисовой лапшой, в котором используется говядина,
+                        свежая зелень и ростки сои. Подают с добавками,
+                        такими как мята, долька лайма, острый соус шрирача, азиатский уксус и лаоганма</p>
+                    <p class="cost">490 ₽</p>
+                </div>
+
+                <div class="popular-box notification">
+                    <img src="assets/images/Tom_Yam.png" alt="">
+                    <span class="badge"><img src="assets/seafood.svg" alt=""></span>
+                    <span class="badge2"><img src="assets/sharp.svg" alt=""></span>
+                    <h3 class="name-product">Том Ям с морепродуктами</h3>
+                    <p class="title-product">Традиционный тайский суп, на основе кокосового молока и сливок,
+                        с добавлением креветок, кальмаров,
+                        грибов шиитаке и шампиньонов, помидоров черри и свежей зелени. Подаётся с паровым тайским рисом
+                    </p>
+                    <p class="cost">590 ₽</p>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="stocks" class="stocks">
+            <h1>Акции</h1>
+
+            <div class="list-stocks wrapper-stocks">
+
+                <div class="stocks-box notification imgWrap-w">
+                    <span class="badge-sale">
+                        <p>Скидка 10%</p>
+                    </span>
+                    <img class="w-img" src="assets/images/platina.png" alt="">
+                    <p><span class="stocks-title">Статус «Platina» привилегированным клиентам</span></p>
+
+                </div>
+
+                <div class="stocks-box notification imgWrap-w">
+                    <span class="badge-sale">
+                        <p>Скидка 5%</p>
+                    </span>
+                    <img class="w-img" src="assets/images/pokupki.png" alt="">
+                    <p><span class="stocks-title">Скидка на все покупки при регистрации</span></p>
+
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <section id="events" class="events">
+            <h1>События</h1>
+
+            <div class="list-events wrapper-stocks">
+
+                <div class="events-box notification imgWrap-w">
+                    <span class="badge-sale">
+                        <p>27 января</p>
+                    </span>
+                    <span class="badge-sale2">
+                        <p>В 21:00</p>
+                    </span>
+                    <span class="badge-event">
+                        <p>Скоро</p>
+                    </span>
+                    <img class="w-img" src="assets/images/event-1.png" alt="">
+                    <p class="event-title"><span>Первый в этом году Stand-Up</span></p>
+
+                </div>
+
+                <div class="events-box notification imgWrap-w">
+                    <span class="badge-sale">
+                        <p>21 января</p>
+                    </span>
+                    <span class="badge-sale2">
+                        <p>Скидка 20%</p>
+                    </span>
+                    <span class="badge-event-end">
+                        <p>Завершено</p>
+                    </span>
+                    <img class="w-img" src="assets/images/event-2.png" alt="">
+                    <p class="event-title"><span>День рождения в «Гастроцех»</span></p>
+
+                </div>
+            </div>
+            <p class="event-button"><a href="">Все события</a></p>
+        </section>
+
+        </section>
+
+        <section id="events" class="events">
+            <h1>Наши заведения</h1>
+
+            <div class="list-events wrapper-stocks">
+
+                <div class="events-box imgWrap-w">
+                    <span class="badge-sale">
+                        <p>Открыт еще 1 ч 20 мин</p>
+                    </span>
+                    <span class="badge-sale3">
+                        <p>с 10:00 до 23:00</p>
+                    </span>
+                    <span class="badge-event-open">
+                        <p>Открыто</p>
+                    </span>
+                    <img class="w-img" src="assets/images/fudkot.png" alt="">
+                    <p class="event-title"><span>Фудкорт — Кафе «Гастроцех»</span></p>
+
+                </div>
+
+                <div class="events-box imgWrap-w">
+                    <span class="badge-sale">
+                        <p>Открыт еще 1 ч 20 мин</p>
+                    </span>
+                    <span class="badge-sale3">
+                        <p>с 10:00 до 23:00</p>
+                    </span>
+                    <span class="badge-event-close">
+                        <p>Закрыто</p>
+                    </span>
+                    <img class="w-img" src="assets/images/gastroceh.png" alt="">
+                    <p class="event-title"><span>«Гастроцех» Пицца</span></p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+    <footer>
+
+
+
+        <div class="footer">
+
+            <section class="top-line">
+                <div class="contact">
+                    +0 (123) 456 78-90
+
+                    <span class="time-work">
+                        <p>Прием заказов с 10:00 до 22:40</p>
+                    </span>
+
+                </div>
+                <div>
+                    <img class="social" src="assets/tg.svg" alt="tg">
+                    <img class="social" src="assets/vk.svg" alt="vk">
+                    <img class="social" src="assets/whats.svg" alt="whats">
+                </div>
+            </section>
+
+            <section class="meddle-line">
+                <div id="logo2" class="logo2">
+                    <img class="logo-img" src="assets/Container - logo.svg" alt="RestoApp">
+                </div>
+                <nav>
+                    <ul class="footer-menu">
+                        <a href="#menu">
+                            <li>Меню</li>
+                        </a>
+                        <a href="#stocks">
+                            <li>Акции</li>
+                        </a>
+                        <a href="#">
+                            <li>О нас</li>
+                        </a>
+                        <a href="#events">
+                            <li>События</li>
+                        </a>
+                        <a href="#">
+                            <li>Зоны доставки</li>
+                        </a>
+                    </ul>
+                </nav>
+                <div>
+                    <img class="app-load" src="assets/app-store.svg" alt="tg">
+                    <img class="app-load" src="assets/google-play.svg" alt="vk">
+                </div>
+            </section>
+
+            <section class="bottom-line">
+                <div id="ps" class="ps">Copyright 2024</div>
+                <nav>
+                    <ul class="footer-menu2">
+                        <a href="#">
+                            <li>Условия оплаты, получения и возврата</li>
+                        </a>
+                        <a href="#">
+                            <li>Политика обработки персональных данных</li>
+                        </a>
+                        <a href="#">
+                            <li>Согласие на обработку персональных данных</li>
+                        </a>
+                    </ul>
+                </nav>
+                <div>
+                    <img class="icon-pay" src="assets/visa.svg" alt="tg">
+                    <img class="icon-pay" src="assets/mscard.svg" alt="vk">
+                    <img class="icon-pay" src="assets/mirpay.svg" alt="vk">
+                </div>
+            </section>
+
+        </div>
+        <hr>
+        <div class="PREAX">Проект выполнен в рамках стажировки <a href="">PREAX</a></div>
+
+    </footer>
+
+</body>
+
+</html>
