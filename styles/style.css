@@ -12,25 +12,22 @@ body {
     width: 100%;
 }
 
-.close-delivery-box{
-    display: block;
-}
-
 .header {
     margin: auto;
     padding: auto;
-    max-width: 1440px;
     box-sizing: border-box;
     background-color: #F9C201;
-    width: 1440px;
-    height: auto;
+    width: 100%;
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.contact-header {
+
+
+address {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -38,24 +35,18 @@ body {
     color: rgba(85, 85, 85, 1);
     font-size: 18px;
     margin-right: 0;
-
-}
-
-.time-work-header p {
-    font-size: 12px;
-    color: rgba(166, 166, 166, 1);
+    font-style: normal;
 }
 
 
-
-.delivery {
+#delivery {
     margin: auto;
     padding: auto;
-    width: 1440px;
+    width: 100%;
     height: 48px;
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #000;
     color: #fff;
@@ -65,58 +56,79 @@ body {
 
 }
 
-.contact {
+#hideButton{
+        background-color: rgba(57, 57, 57, 1) ;
+        color: white;
+        border-radius: 50%;
+        border: none;
+        width: 20px;
+        height: 20px;
+        top: 2px;
+        left: 2px;
+        margin-left: 15px ;
+} 
 
-    text-align: right;
-    margin-right: 50px;
-    line-height: 20px;
-    color: rgba(85, 85, 85, 1);
+#navMenu li {
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.contact-header{
+    width: 188;
+    height: 40;
+}
+
+.time-work-header {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+
+}
+
+.user-button {
+    width: 128;
+height: 48;
+gap: 16px;
 
 }
 
 .user-page {
     border: #000 2px solid;
-    border-radius: 10px;
+    
     padding: 2px;
 }
 
 .basket {
     background-color: #000;
     border: #000 2px solid;
-    border-radius: 10px;
     padding: 2px;
 }
 
 .user-page,
 .basket {
-    width: 36px;
-    height: 36px;
-
+width: 56;
+height: 48;
+gap: 12px;
+border-radius: 16px;
+border-width: 2px;
+padding-top: 12px;
+padding-right: 16px;
+padding-bottom: 12px;
+padding-left: 16px;
 }
 
-.logo>img {
-    width: 137px;
-    height: 22px;
-
-}
-
-.name-product {
-    font-size: 16px;
-    font-weight: 600;
-}
 
 div,
 nav,
 ul,
 li {
     display: inline-block;
-
-}
-
-
-
-li {
-    margin-left: 20px;
+    margin: 0 20px 0 20px;
 }
 
 a {
@@ -124,9 +136,8 @@ a {
     color: rgba(85, 85, 85, 1);
 }
 
-
 main {
-    width: 1300px;
+    width: 1440px;
     margin: auto;
     padding: auto;
     align-items: center;
@@ -135,12 +146,22 @@ main {
 section {
     margin: auto;
     padding: auto;
-
 }
 
 h1 {
     font-size: 40px;
+    align-items: flex-start;
 }
+
+.list-menu-box {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 
 /* затемнение картинка */
 .imgWrap {
@@ -155,7 +176,7 @@ h1 {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 84px;
+    bottom: 1%;
     left: 0;
     border-radius: 0 0 16px 16px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
@@ -342,16 +363,12 @@ main img {
 
 /* стили бейджа */
 
-.menu-box>p {
+.product-name  {
     position: relative;
     top: -85px;
     padding: 10px;
     border-radius: 0 0 16px 16px;
     z-index: 2;
-}
-
-.menu-box>p>span {
-
     font-size: 24px;
     color: #fff;
     margin-left: 16px;
@@ -457,11 +474,16 @@ main img {
 }
 
 footer {
-    width: 1440px;
+    width: 100%;
     background-color: rgba(28, 28, 28, 1);
     text-align: center;
-    margin: auto;
+    margin: 100px 0 0 0;
     padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .footer {
@@ -470,7 +492,6 @@ footer {
     max-width: 1440px;
     min-height: 300px;
     box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
